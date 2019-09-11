@@ -1,2 +1,3 @@
 FROM amolbhawari/apache2
-ADD ./code /var/www/html
+ADD ./code /var/www/html/code
+ENTRYPOINT apachectl -D FOREGROUND
